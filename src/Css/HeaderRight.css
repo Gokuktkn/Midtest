@@ -1,0 +1,49 @@
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.chatting-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.function {
+    display: flex;
+    gap: 3px;
+}
+
+.function-button {
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3774FF;
+    border: 0;
+}
+
+.icons {
+    font-size: 16px;
+    color: white;
+}
+
+.more {
+    background-color: #0F111A;
+    border: 2px solid #222735;
+}
+
+.more-icon {
+    color: #617AB8;
+}
+
+.statement {
+    font-size: small;
+}
+.chatting-name{
+    font-size: 1.5em;
+}

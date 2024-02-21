@@ -1,0 +1,36 @@
+.user-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.user-avt {
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1.3em;
+}
+
+.active-user {
+    background-color: #313749;
+    border-radius: 5px;
+}
+
+.user-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.time {
+    font-size: .7em;
+}

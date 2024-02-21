@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #0F111A;
+}
+
+.content-left {
+  flex: 1;
+  padding: 20px;
+  color: #8D92A3;
+}
+
+.content-right {
+  border: 2px solid #2A3140;
+  border-radius: 10px;
+  flex: 2;
+  width: 100%;
+  padding: 20px;
+  background-color: #141824;
+  color: white;
+}
+
+.chatting-box {
+  display: flex;
+  flex-direction: column;
+  color: #8D92A3;
+  padding: 20px;
+  height: 75vh;
+  border-top: 2px solid #2A3140;
+  border-bottom: 2px solid #2A3140;
+}
+
+.user-avt {
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.friend-chat {
+  display: flex;
+  gap: 10px;
+}
+
+.mess {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.friend-mess {
+  display: flex;
+  align-self: center;
+  border: 2px solid #222532;
+}
+
+.my-mess {
+  color: white;
+  align-self: flex-end;
+  background-color: #3774FF;
+}

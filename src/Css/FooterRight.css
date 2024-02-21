@@ -1,0 +1,31 @@
+.chat-type{
+    display: flex;
+}
+.chat-left{
+    flex: 4;
+}
+.chat-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.type-mess{
+    width: 80%;
+    background-color: #141824;
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+.icon{
+    display: flex;
+    gap: 15px;
+}
+.send{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #3774FF;
+    color: white;
+}
